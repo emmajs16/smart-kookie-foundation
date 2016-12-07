@@ -16,8 +16,12 @@ class MyApp < Sinatra::Base
    erb :bosnian
  end
 
- get '/espgnol.html' do
+ get '/espanol.html' do
    erb :espanol
+ end
+
+ get '/francias.html' do
+   erb :francias
  end
 
  get '/food.html' do
